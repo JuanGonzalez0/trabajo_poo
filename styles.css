@@ -1,0 +1,17 @@
+
+.contenedor {
+    display: flex; /* Utilizamos flexbox para colocar el texto y la imagen en línea */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+}
+p {
+    margin-right: 20px; /* Agrega un margen a la derecha del texto para separarlo de la imagen */
+}
+ul{
+    background-color: aqua;
+    text-align: left;
+}
+img{
+    border: solid 25px black;
+    height: 200px;
+    width: 200px;
+}
