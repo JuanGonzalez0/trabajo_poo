@@ -1,16 +1,92 @@
+body{
+    margin: 0;
+}
+h1{
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+    margin: 0%;
+    color:  orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(196, 140, 36);
+    font-size: 100px;
+    text-shadow: -20px 0px 7px rgb(110, 107, 107);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.datos{
+    
+}
 
 .contenedor {
     display: flex;
     align-items: center;
-p {
-    margin-right: 20px;
+    height: 150px;
 }
-ul{
-    background-color: aqua;
-    text-align: left;
+
+#contenedorSalta{
+    background-color: rgb(255, 211, 13);
+    border-bottom: solid 2px black;
+    
 }
+#contenedorMendoza{
+    background-color: cornflowerblue;
+    border-bottom: solid 2px black;
+}
+#contenedorNeuquen{
+    background-color: rgb(136, 202, 36);
+}
+
 img{
-    border: solid 25px black;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: solid 26px black;
+}
+
+.checkbox{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    border-right: solid 2px black;
+}
+.checkbox > input{
+    margin: auto;
+}
+
+.nombre-provincia{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    
+
+}
+.nombre-provincia > p{
+    margin: auto;
+}
+
+.img-procincia{
+    height: 100%;
+}
+
+.opc-provincia{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.opc-provincia > ul{
+    margin: auto;
+}
+
+.checkbox-opc{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(255, 192, 97);
+    display: flex;
+}
+.checkbox-opc > div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }

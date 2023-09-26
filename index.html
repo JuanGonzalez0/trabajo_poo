@@ -9,32 +9,84 @@
 <body>
     <h1>Argentina</h1>
     <form>
-        <div class="contenedor">
-            <input type="checkbox" id="salta" name="Salta">
-            <p><label for="Salta">Salta</label><br></p>
-            <img src="salta.jpg" alt="">
-            <p><ul><li><label>1⁄2 pensión c/ aéreo</label><input type="checkbox"></li><li><label> 1⁄2 pensión c/ bus</label><input type="checkbox"></li><li><label> Desayuno s/ traslados</label><input type="checkbox"></li></ul></p>
+        <div class="contenedor" id="contenedorSalta">
+            <div class="checkbox">
+                <input type="checkbox" id="salta" name="Salta">
+            </div>
+            <div class="nombre-provincia">
+                <p>Salta</p>
+            </div>
+            <div class="img-provincia">
+                <img src="salta.jpg" alt="">
+            </div>
+            <div class="opc-provincia">
+                <ul><li>1⁄2 pensión c/ aéreo</li><li> 1⁄2 pensión c/ bus</li><li> Desayuno s/ traslados</li></ul>
+            </div>
+            <section class="checkbox-opc">
+                <div>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+            </section>
+        </div>
+        <div class="contenedor" id="contenedorMendoza">
+            <div class="checkbox">
+                <input type="checkbox" id="mendoza" name="Mendoza">
+            </div>
+            <div class="nombre-provincia">
+                <p>Mendoza</p>
+            </div>
+            <div class="img-provincia">
+                <img src="mendoza.jpg" alt="">
+            </div>
+            <div class="opc-provincia">
+                <ul><li>1⁄2 pensión c/ aéreo</li><li> 1⁄2 pensión c/ bus</li><li> Desayuno s/ traslados</li></ul>
+            </div>
+            <div class="checkbox-opc">
+                <div>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>   
+            </div>
         </div>
 
-        <div class="contenedor">
-            <input type="checkbox" id="mendoza" name="Mendoza">
-            <p><label for="Mendoza">Mendoza</label><br></p>
-            <img src="mendoza.jpg" alt="">
-            <p><ul><li><label>1⁄2 pensión c/ aéreo</label><input type="checkbox"></li><li><label> 1⁄2 pensión c/ bus</label><input type="checkbox"></li><li><label> Desayuno s/ traslados</label><input type="checkbox"></li></ul></p>
-        </div>
-
-        <div class="contenedor">
-            <input type="checkbox" id="neuquen" name="Neuquen">
-            <p><label for="Neuquen">Neuquen</label><br></p>
-            <img src="neuqen.jpg" alt="">
-            <p><ul><li><label>1⁄2 pensión c/ aéreo</label><input type="checkbox"></li><li><label> 1⁄2 pensión c/ bus</label><input type="checkbox"></li><li><label> Desayuno s/ traslados</label><input type="checkbox"></li></ul></p>
+        <div class="contenedor" id="contenedorNeuquen">
+            <div class="checkbox">
+                <input type="checkbox" id="neuquen" name="Neuquen">
+            </div>
+            <div class="nombre-provincia">
+                <p>Salta</p>
+            </div>
+            <div class="img-provincia">
+                <img src="neuqen.jpg" alt="">
+            </div>
+            <div class="opc-provincia">
+                <ul><li>1⁄2 pensión c/ aéreo</li><li> 1⁄2 pensión c/ bus</li><li> Desayuno s/ traslados</li></ul>
+            </div>
+            <section class="checkbox-opc">
+                <div>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+                
+            </section>
         </div>
         
         <div>
-            <p>Nombre <input type="text" value=" "></p>
-            <p>Apellido <input type="text" value=" "></p>
-            <p>Forma de pago <input type="checkbox">tarjeta <input type="checkbox">efectivo </p>
-            <input type="button" value="enviar">
+            <div>
+                <h2>Nombre</h2><input type="textarea">
+                <h2>Apellido</h2><input type="textare">
+                
+                
+                <h2>Forma de pago</h2>
+            </div>
+            <div>
+
+                <input type="checkbox"><input type="checkbox">
+            </div>
         </div>
     </form>
 </body>
